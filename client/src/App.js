@@ -4,6 +4,7 @@ import {ApolloProvider} from 'react-apollo';
 
 // components
 import MovieList from './components/MovieList';
+import AddMovie from './components/AddMovie';
 
 
 // apollo client set-up
@@ -16,6 +17,7 @@ function App() {
       <div id="main">
         <h1>Welcome everybody!</h1>
         <MovieList />
+        <AddMovie />
       </div>
     </ApolloProvider>
   );
