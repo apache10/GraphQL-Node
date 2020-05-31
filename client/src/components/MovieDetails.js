@@ -29,7 +29,7 @@ class MovieDetails extends Component {
     
     render(){
         return(
-            <div id="book-details">
+            <div id="movie-details">
                 { this.displayMovieDetails() }
             </div>
         );

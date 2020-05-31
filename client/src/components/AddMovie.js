@@ -27,6 +27,7 @@ class AddMovie extends Component {
         }
     }
     //submitForm
+    // check for empty cases
     submitForm(e){
         e.preventDefault();
         this.props.addMovieMutation({
