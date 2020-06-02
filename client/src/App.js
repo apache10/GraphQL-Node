@@ -5,6 +5,7 @@ import {ApolloProvider} from 'react-apollo';
 // components
 import MovieList from './components/MovieList';
 import AddMovie from './components/AddMovie';
+import AddDirector from './components/AddDirector';
 
 
 // apollo client set-up
@@ -18,6 +19,7 @@ function App() {
         <h1>Movie World!</h1>
         <MovieList />
         <AddMovie />
+        <AddDirector />
       </div>
     </ApolloProvider>
   );

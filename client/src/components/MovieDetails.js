@@ -14,7 +14,7 @@ class MovieDetails extends Component {
                     <h2>{ movie.name }</h2>
                     <p>{ movie.genre }</p>
                     <p>{ movie.director.name }</p>
-                    <p>All books by this director:</p>
+                    <p>All Movies by this director:</p>
                     <ul className="other-movies">
                         { movie.director.movies.map(item => {
                             return <li key={item.id}>{ item.name }</li>

@@ -40,7 +40,7 @@ code {
 }
 
 
-form{
+.movieForm{
   background:#fff;
   padding: 20px;
   position: fixed;
@@ -90,4 +90,13 @@ form button{
   box-shadow: -2px -3px 5px rgba(0,0,0,0.3);
   box-sizing: border-box;
   color: #fff;
+}
+
+.directorForm{
+  background:#fff;
+  padding: 20px;
+  position: fixed;
+  right:0;
+  bottom: 0;
+  width: 400px;
 }

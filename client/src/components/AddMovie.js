@@ -42,7 +42,7 @@ class AddMovie extends Component {
 
     render(){
         return(
-            <form id="add-movie" onSubmit={this.submitForm.bind(this)}>
+            <form className="movieForm" id="add-movie" onSubmit={this.submitForm.bind(this)}>
                 <div className="field">
                     <label>Movie name:</label>
                     <input type="text" onChange={(e) => this.setState({name:e.target.value})}/>

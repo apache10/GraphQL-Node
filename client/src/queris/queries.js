@@ -29,6 +29,16 @@ mutation($name:String!, $genre:String!, $directorId:ID!){
     }
 }
 `
+
+// to add director
+const addDirectorMutation = gql`
+mutation($name:String!, $age:Int){
+    addDirector(name:$name,age:$age){
+        name
+        id
+    }
+}
+`
 // movie details
 const getMovieQuery = gql`
     query($id:ID){
@@ -49,4 +59,4 @@ const getMovieQuery = gql`
     }
 `
 
-export { getDirectorsQuery, getMoviesQuery, addMovieMutation, getMovieQuery };
+export { getDirectorsQuery, getMoviesQuery, addMovieMutation, getMovieQuery, addDirectorMutation };
